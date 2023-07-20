@@ -16,6 +16,10 @@ body {
 }
 .nav-link:hover {
   color: #fff;
+  font-style: italic;
+}
+.nav-link:visited {
+  color: #fff;
 }
 .hero-section {
   max-width: 100%;
@@ -76,6 +80,11 @@ body {
   margin: 20px;
 }
 
+.fade-in-image:hover {
+  position: relative;
+  bottom: 20px;
+}
+
 .stairs {
   position: relative;
   right: 158px;
@@ -87,6 +96,11 @@ footer {
 footer .icons {
   color: #fff;
   font-family: var(--main-font);
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: bolder;
+}
+footer p {
+  font-family: var(--main-font);
+  font-size: 18px;
   font-weight: normal;
 }
